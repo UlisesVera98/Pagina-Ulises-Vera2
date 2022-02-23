@@ -1,0 +1,18 @@
+$title-font: normal 24px/1.5 'Open Sans', sans-serif;
+$cool-red: #F44336;
+$box-shadow-bottom-only: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+$color-fuente: #2fac099f;
+
+.row { background-color: $color-fuente;
+       border: solid white 5px;
+       &:hover{
+           background-color: aquamarine;
+       }
+       p{
+           font: $title-font;
+           text-decoration: overline;
+           color: $cool-red !important;
+       }
+
+
+}
